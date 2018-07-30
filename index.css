@@ -66,7 +66,7 @@ div {
 
 @media only screen and (max-width:992px) {
     nav {
-        transition: all 1s linear;
+        transition: all 0.3s linear;
         transform: translate(-250px);
         top: 6%;
         width: 200px;
@@ -80,11 +80,13 @@ div {
         display: block;
     }
 }
-
+section ul li{
+    display: inline-block;
+}
 img {
     position: relative;
-    width: 33%;
-  
+    width: 100%;
+    height: 250px;
 }
 
 section {
@@ -94,7 +96,7 @@ section {
     width: 80%;
     top: 51px;
     z-index: 3;
-}
+    }
 
 footer {
     position: absolute;
@@ -103,7 +105,7 @@ footer {
 
     background-color:#F88FA4;
     width: 100%;
-    height: 15%;
+    height: 13%;
     z-index: 3;
 }
 
@@ -111,9 +113,29 @@ h1 {
     position: absolute;
     left: 0px;
     right: 0;
-    bottom: 0px;
+    bottom: 15px;
     margin: auto;
     color: #D1CFD1;
-    width: 10%;
+    width: 55%;
     text-align: center;
 }
+@media only screen and (max-width:600px) {
+    h1 {
+        font-size: 12px;
+    }
+}
+
+h2{
+    position: relative;
+    color:black;
+    width: 40%;
+    top: 290px;
+}
+
+h6{
+    position: relative;
+    color:black;
+    width: 40%;
+    top: 290px; 
+}
+
